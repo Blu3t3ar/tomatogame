@@ -30,7 +30,7 @@ namespace Tomato_2nd
             var img = engine.NextGame();
             ImageBrush ib = new ImageBrush(img);
             ib.ImageSource = img;
-            tomato.Background=ib;
+            tomato.Source=img;
 
             label.Content = "What is the value of the tomato?";
             score.Content = "score: " + engine.Score;
@@ -51,7 +51,7 @@ namespace Tomato_2nd
                 var img = engine.NextGame();
                 ImageBrush ib = new ImageBrush(img);
                 ib.ImageSource = img;
-                tomato.Background = ib;
+                tomato.Source = img;
             }
             else
             {

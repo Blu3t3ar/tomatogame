@@ -13,10 +13,10 @@
         <Label x:Name="Password_1st_Copy" Content="Confirm Password" HorizontalAlignment="Left" Margin="94,246,0,0" VerticalAlignment="Top" Width="170" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16"/>
         <Button x:Name="Register" Content="Register Now" HorizontalAlignment="Left" Margin="306,303,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" Height="34" Width="124" Click="Register_button_Click"/>
         <Button x:Name="Login" Content="Have an Account? Login now" HorizontalAlignment="Left" Margin="252,355,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.083,0.47" Height="47" Width="232" FontFamily="Kristen ITC" Click="Login_button_Click"/>
-        <Image x:Name="tomato_image" HorizontalAlignment="Left" Height="242" Margin="231,543,0,0" VerticalAlignment="Top" Width="252" Source="/View/DALL·E 2023-11-20 16.29.21 - A vibrant, imaginative scene of a number-based tomato game. The game features various sizes of bright red tomatoes, each with a different number on th.png" Stretch="Fill"/>
         <Label x:Name="welcome_to_tomato_game" Content="Tomato Game" Margin="94,43,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="18" Background="#FFE03939" Width="663" HorizontalAlignment="Left"/>
         <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Margin="280,196,0,0" VerticalAlignment="Top" Width="176" Height="32"/>
         <PasswordBox x:Name="txtconfirmpassword" HorizontalAlignment="Left" Margin="280,246,0,0" VerticalAlignment="Top" Width="176" Height="32"/>
+        <Image HorizontalAlignment="Left" Height="215" Margin="485,0,0,0" VerticalAlignment="Center" Width="296" Source="/View/TOMATO.png" Stretch="UniformToFill"/>
 
     </Grid>
 </Window>
