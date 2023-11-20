@@ -1,0 +1,22 @@
+﻿<Window x:Class="Tomato_2nd.View.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tomato_2nd.View"
+        mc:Ignorable="d"
+        Title="Registration" Height="450" Width="800" Loaded="Registration_Load">
+    <Grid RenderTransformOrigin="0.503,0.497">
+        <Label x:Name="Enter_User_Name" Content="Enter Player Name" HorizontalAlignment="Left" Margin="94,137,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16" Width="170"/>
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Margin="280,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="32" RenderTransformOrigin="0.841,2.806"/>
+        <Label x:Name="Password_1st" Content="Enter Password" HorizontalAlignment="Left" Margin="94,196,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16" Width="161"/>
+        <Label x:Name="Password_1st_Copy" Content="Confirm Password" HorizontalAlignment="Left" Margin="94,246,0,0" VerticalAlignment="Top" Width="170" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="Register" Content="Register Now" HorizontalAlignment="Left" Margin="306,303,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" Height="34" Width="124" Click="Register_button_Click"/>
+        <Button x:Name="Login" Content="Have an Account? Login now" HorizontalAlignment="Left" Margin="252,355,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.083,0.47" Height="47" Width="232" FontFamily="Kristen ITC" Click="Login_button_Click"/>
+        <Image x:Name="tomato_image" HorizontalAlignment="Left" Height="242" Margin="231,543,0,0" VerticalAlignment="Top" Width="252" Source="/View/DALL·E 2023-11-20 16.29.21 - A vibrant, imaginative scene of a number-based tomato game. The game features various sizes of bright red tomatoes, each with a different number on th.png" Stretch="Fill"/>
+        <Label x:Name="welcome_to_tomato_game" Content="Tomato Game" Margin="94,43,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="18" Background="#FFE03939" Width="663" HorizontalAlignment="Left"/>
+        <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Margin="280,196,0,0" VerticalAlignment="Top" Width="176" Height="32"/>
+        <PasswordBox x:Name="txtconfirmpassword" HorizontalAlignment="Left" Margin="280,246,0,0" VerticalAlignment="Top" Width="176" Height="32"/>
+
+    </Grid>
+</Window>

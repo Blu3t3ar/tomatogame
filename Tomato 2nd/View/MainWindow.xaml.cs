@@ -26,7 +26,7 @@ namespace Tomato_2nd
         {
             InitializeComponent();
 
-           engine = new GameEngine("Playername");
+            engine = new GameEngine("Playername");
             var img = engine.NextGame();
             ImageBrush ib = new ImageBrush(img);
             ib.ImageSource = img;
