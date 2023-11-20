@@ -9,7 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\Firefly 20231120231818.png" />
+    <None Remove="View\Firefly 20231120233144.png" />
+    <None Remove="View\register 2 .png" />
+    <None Remove="View\register.png" />
     <None Remove="View\TOMATO.png" />
+    <None Remove="View\tomato2 .png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +23,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="View\Firefly 20231120231818.png" />
+    <Resource Include="View\Firefly 20231120233144.png" />
+    <Resource Include="View\register 2 .png" />
+    <Resource Include="View\register.png" />
     <Resource Include="View\TOMATO.png" />
+    <Resource Include="View\tomato2 .png" />
   </ItemGroup>
 
   <ItemGroup>

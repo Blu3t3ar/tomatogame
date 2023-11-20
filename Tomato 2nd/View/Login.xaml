@@ -5,15 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tomato_2nd.View"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800" Loaded="Login_Loaded">
+        Title="Login" Height="800" Width="1000" Loaded="Login_Loaded">
     <Grid>
-        <Label Content="Enter Player Name" HorizontalAlignment="Left" Margin="184,140,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="16"/>
-        <Label Content="Enter Password" HorizontalAlignment="Left" Margin="184,232,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="16"/>
-        <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Margin="400,232,0,0" VerticalAlignment="Top" Width="151" Height="32"/>
-        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Margin="400,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Height="32" TextChanged="TextBox_TextChanged"/>
-        <Button x:Name="Login1" Content="Login" HorizontalAlignment="Left" Margin="330,300,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="16" Width="146" Height="37" Click="Button_Click_1"/>
-        <Button x:Name="Register" Content="Don't Have  Account? Create" HorizontalAlignment="Center" Margin="0,361,0,0" VerticalAlignment="Top" Height="43" Width="343" FontFamily="Kristen ITC" FontSize="16" Click="Button_Click"/>
-        <Label x:Name="welcome_to_tomato_game" Content="Tomato Game" Margin="94,43,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="18" Background="#FFE03939" Width="663" HorizontalAlignment="Left"/>
+        <Image Source="/View/Firefly 20231120233144.png" Stretch="Fill"></Image>
+        <Label Content="Enter Player Name" HorizontalAlignment="Left" Margin="616,140,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="16"/>
+        <Label Content="Enter Password" HorizontalAlignment="Left" Margin="616,187,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="16"/>
+        <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Margin="777,187,0,0" VerticalAlignment="Top" Width="162" Height="32" FontSize="16"/>
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Margin="777,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="32" TextChanged="TextBox_TextChanged" FontSize="16"/>
+        <Button x:Name="Login1" Content="Login" HorizontalAlignment="Left" Margin="757,343,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="16" Width="146" Height="37" Click="Button_Click_1"/>
+        <Button x:Name="Register" Content="Don't Have  Account? Create" HorizontalAlignment="Left" Margin="706,413,0,0" VerticalAlignment="Top" Height="43" Width="248" FontFamily="Kristen ITC" FontSize="16" Click="Button_Click"/>
+        <Label x:Name="welcome_to_tomato_game" Content="Tomato Game" Margin="32,60,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="18" Width="168" HorizontalAlignment="Left"/>
 
     </Grid>
 </Window>

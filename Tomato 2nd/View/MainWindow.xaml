@@ -6,13 +6,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tomato_2nd"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="800" Width="1000">
     <Grid Name="main_grid">
         <Grid.RowDefinitions>
             <RowDefinition Height="11*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Image Source="/View/TOMATO.png" Opacity="0.2" Panel.ZIndex="90" Stretch="Fill" />
+        <Image Source="/View/tomato2 .png" Opacity="0.2" Panel.ZIndex="90" Stretch="Fill" />
         <Grid Name="header_and_body" Grid.Row="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -23,8 +23,8 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Label Grid.Column="0" x:Name="label"></Label>
-                <Label Grid.Column="1" x:Name="score"></Label>
+                <Label Grid.Column="0" x:Name="label" FontFamily="Kristen ITC" FontSize="22" FontWeight="Bold"></Label>
+                <Label Grid.Column="1" x:Name="score" FontFamily="Kristen ITC" FontSize="22" FontWeight="Bold"></Label>
             </Grid>
             <Image x:Name="tomato" Grid.Row="1"/>
         </Grid>
