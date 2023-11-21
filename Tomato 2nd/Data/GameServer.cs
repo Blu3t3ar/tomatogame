@@ -16,6 +16,7 @@ namespace Tomato_2nd.Data
 {
     public class GameServer
     {
+        public static int retrycount = 0;
         private static string ReadUrl(string urlString)
         {
             try
@@ -29,7 +30,18 @@ namespace Tomato_2nd.Data
             {
                 
                 Console.WriteLine("An Error occurred: " + e.Message);
-                throw;
+                if (retrycount < 5)
+                    {
+                    retrycount++;
+                    return ReadUrl(urlString); 
+                }
+                else
+                {
+                    Console.WriteLine("Retry count reached. Failed to Load");
+                        System.Windows.Application.Current.Shutdown();
+                    return null;
+                }
+
             }
         }
         public Game GetRandomGame()

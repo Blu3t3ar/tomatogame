@@ -14,7 +14,6 @@ namespace Tomato_2nd.Logic
     public class GameEngine
     {
         private string Playername;
-        private int counter = 0;
         private int score = 0;
         private GameServer theGames = new GameServer();
         private Game? current;
