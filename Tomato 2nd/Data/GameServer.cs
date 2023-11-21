@@ -27,7 +27,7 @@ namespace Tomato_2nd.Data
             }
             catch (Exception e)
             {
-                // TODO: Add proper exception handling.
+                
                 Console.WriteLine("An Error occurred: " + e.Message);
                 throw;
             }

@@ -13,7 +13,7 @@ namespace Tomato_2nd.Logic
     /// </summary>
     public class GameEngine
     {
-        private string thePlayer;
+        private string Playername;
         private int counter = 0;
         private int score = 0;
         private GameServer theGames = new GameServer();
@@ -27,11 +27,11 @@ namespace Tomato_2nd.Logic
         /// <param name="player"></param>
         public GameEngine(string player)
         {
-            thePlayer = player;
+            Playername = player;
         }
 
         /// <summary>
-        /// Retrieves a game. This basic version only has two games that alternate.
+        /// Retrieves a game. 
         /// </summary>
         /// <returns></returns>
         public BitmapImage NextGame()

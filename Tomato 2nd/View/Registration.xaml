@@ -9,14 +9,14 @@
     <Grid RenderTransformOrigin="0.503,0.497">
         <Image Source="/View/Firefly 20231120231818.png" Stretch="Fill"/>
         <Label x:Name="Enter_User_Name" Content="Enter Player Name" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16" Width="170" Background="#FFF3EAEA" Foreground="#FF040000" Opacity="0.7"/>
-        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Margin="194,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="32" RenderTransformOrigin="0.841,2.806" Background="{x:Null}" BorderBrush="#FFFF1C1C" FontSize="16" FontWeight="Bold" FontFamily="Kristen ITC"/>
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Margin="194,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="32" RenderTransformOrigin="0.841,2.806" Background="{x:Null}" BorderBrush="#FFFF1C1C" FontSize="16" FontWeight="Bold" FontFamily="Kristen ITC" TabIndex="0"/>
         <Label x:Name="Password_1st" Content="Enter Password" HorizontalAlignment="Left" Margin="8,254,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16" Width="162" Foreground="#FF100101" Background="#FFF3EAEA" Opacity="0.7"/>
         <Label x:Name="Password_1st_Copy" Content="Confirm Password" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Width="170" FontFamily="Kristen ITC" FontWeight="Bold" FontSize="16" Background="#FFF3EAEA" Opacity="0.7"/>
-        <Button x:Name="Register" Content="Register Now" HorizontalAlignment="Center" Margin="0,589,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" Height="55" Width="201" Click="Register_button_Click" Background="#FFF3EAEA"/>
-        <Button x:Name="Login" Content="Have an Account? Login now" HorizontalAlignment="Center" Margin="0,673,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.083,0.47" Height="62" Width="201" FontFamily="Kristen ITC" Click="Login_button_Click" Background="#FFF3EAEA"/>
+        <Button x:Name="Register" Content="Register Now" HorizontalAlignment="Center" Margin="0,589,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" Height="55" Width="201" Click="Register_button_Click" Background="#FFF3EAEA" TabIndex="3"/>
+        <Button x:Name="Login" Content="Have an Account? Login now" HorizontalAlignment="Center" Margin="0,673,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.083,0.47" Height="62" Width="201" FontFamily="Kristen ITC" Click="Login_button_Click" Background="#FFF3EAEA" TabIndex="4"/>
         <Label x:Name="welcome_to_tomato_game" Content="Tomato Game" Margin="20,18,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" FontSize="20" Background="{x:Null}" Width="160" HorizontalAlignment="Left" Foreground="#FFFF1919"/>
-        <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Margin="194,257,0,0" VerticalAlignment="Top" Width="136" Height="29" Background="{x:Null}" BorderBrush="#FFD81515" FontFamily="Kristen ITC" FontSize="16"/>
-        <PasswordBox x:Name="txtconfirmpassword" HorizontalAlignment="Left" Margin="194,333,0,0" VerticalAlignment="Top" Width="136" Height="24" Background="{x:Null}" BorderBrush="#FFD81515" RenderTransformOrigin="-0.872,1.358" FontFamily="Kristen ITC" FontSize="16"/>
+        <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Margin="194,257,0,0" VerticalAlignment="Top" Width="136" Height="29" Background="{x:Null}" BorderBrush="#FFD81515" FontFamily="Kristen ITC" FontSize="16" TabIndex="1"/>
+        <PasswordBox x:Name="txtconfirmpassword" HorizontalAlignment="Left" Margin="194,333,0,0" VerticalAlignment="Top" Width="136" Height="24" Background="{x:Null}" BorderBrush="#FFD81515" RenderTransformOrigin="-0.872,1.358" FontFamily="Kristen ITC" FontSize="16" TabIndex="2"/>
 
     </Grid>
 </Window>
