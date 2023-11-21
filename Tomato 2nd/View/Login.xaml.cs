@@ -54,7 +54,7 @@ namespace Tomato_2nd.View
                 {
                     dr.Close();
                     this.Hide();
-                    MainWindow home = new MainWindow();
+                    MainWindow home = new MainWindow(txtusername.Text);
                     home.ShowDialog();
                 }
                 else

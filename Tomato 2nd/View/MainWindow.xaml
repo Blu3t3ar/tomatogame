@@ -19,11 +19,13 @@
             </Grid.RowDefinitions>
             <Grid Name="header" Grid.Row="0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width=" 2*"/>
+                    <ColumnDefinition Width=" *"/>
+                    <ColumnDefinition Width=" *"/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Column="0" x:Name="label" FontFamily="Kristen ITC" FontSize="22" FontWeight="Bold"></Label>
                 <Label Grid.Column="1" x:Name="score" FontFamily="Kristen ITC" FontSize="22" FontWeight="Bold"></Label>
+                <Label Grid.Column="2" x:Name="username" FontFamily="Kristen ITC" FontSize="22" FontWeight="Bold"></Label>
             </Grid>
             <Image x:Name="tomato" Grid.Row="1"/>
         </Grid>

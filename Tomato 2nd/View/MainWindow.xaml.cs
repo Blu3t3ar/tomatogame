@@ -11,7 +11,8 @@ namespace Tomato_2nd
     public partial class MainWindow : Window
     {
         GameEngine engine;
-        public MainWindow()
+        
+        public MainWindow(string user)
         {
             InitializeComponent();
 
@@ -24,7 +25,8 @@ namespace Tomato_2nd
 
             label.Content = "What is the value of the tomato?";
             score.Content = "score: " + engine.Score;
-            
+            username.Content = "Welcome: " +user;
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
