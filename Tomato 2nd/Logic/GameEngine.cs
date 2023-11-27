@@ -20,19 +20,17 @@ namespace Tomato_2nd.Logic
 
         public int Score { get => score; set => score = value; }
 
-        /// <summary>
+        
         /// Each player has their own game engine.
-        /// </summary>
-        /// <param name="player"></param>
+       
         public GameEngine(string player)
         {
             Playername = player;
         }
 
-        /// <summary>
+        
         /// Retrieves a game. 
-        /// </summary>
-        /// <returns></returns>
+       
         public BitmapImage NextGame()
         {
             current = theGames.GetRandomGame();
@@ -40,11 +38,9 @@ namespace Tomato_2nd.Logic
             return current.Image;
         }
 
-        /// <summary>
+       
         /// Checks if the parameter i is a solution to the game URL. If so, score is increased by one.
-        /// </summary>
-        /// <param name="i"></param>
-        /// <returns></returns>
+    
         public bool CheckSolution(int i)
         {
             if (i == current.Solution)

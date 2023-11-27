@@ -7,9 +7,9 @@ using System.Windows.Media.Imaging;
 
 namespace Tomato_2nd.Logic
 {
-    /// <summary>
+    
     /// Class of the game. 
-    /// </summary>
+    ///
     public class Game
 
     {

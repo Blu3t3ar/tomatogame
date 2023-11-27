@@ -26,6 +26,9 @@ namespace Tomato_2nd.View
             login.ShowDialog();
         }
 
+        /// Using Sql for database
+        /// 
+        
         private void Register_button_Click(object sender, RoutedEventArgs e)
         {
             if (txtconfirmpassword.Password != string.Empty || txtpassword.Password != string.Empty || txtusername.Text != string.Empty)

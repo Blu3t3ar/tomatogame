@@ -14,6 +14,8 @@ using Tomato_2nd.Logic;
 
 namespace Tomato_2nd.Data
 {
+    /// Interacting with external server to retrieve the game , getting the image and the solution from the url with exception handling.
+    /// 
     public class GameServer
     {
         public static int retrycount = 0;
@@ -44,6 +46,10 @@ namespace Tomato_2nd.Data
 
             }
         }
+        
+        /// Retrieves a random game from the web site
+        /// 
+        
         public Game GetRandomGame()
         {
         

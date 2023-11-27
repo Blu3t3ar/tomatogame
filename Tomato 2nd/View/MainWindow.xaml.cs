@@ -25,10 +25,11 @@ namespace Tomato_2nd
 
             label.Content = "What is the value of the tomato?";
             score.Content = "score: " + engine.Score;
-            username.Content = "Welcome: " +user;
+            username.Content = "Welcome: " +user;  // Getting user name from login window
 
         }
 
+        // Method that is called when a button has been pressed.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -39,7 +40,8 @@ namespace Tomato_2nd
             bool result = engine.CheckSolution(numPressed);
             if (result)
             {
-                label.Content = "Good result";
+                label.Content = "Good Result";
+                MessageBox.Show("Good answer :) Next game? ", "Good Result", MessageBoxButton.OK, MessageBoxImage.Question);
                 score.Content = "score: " + engine.Score;
                 var img = engine.NextGame();
                 ImageBrush ib = new ImageBrush(img);
@@ -49,6 +51,7 @@ namespace Tomato_2nd
             else
             {
                 label.Content = "Try again";
+                MessageBox.Show("Wrong answer, try again :) ", "Try Again", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
 
